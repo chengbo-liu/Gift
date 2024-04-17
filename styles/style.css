@@ -1,4 +1,16 @@
-.qrcode{
+
+#xiaoli
+{
     text-align: center;
-    background-color: red;
+}
+#videos
+{
+    text-align: center;
+}
+p{
+    font-size: 5px;color:lightskyblue;
+}
+#texts
+{
+    text-align: center; font-size: 20px;
 }
