@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8" /> 
+        <meta name="viewport" content="width=device-width" />
+        <link href="styles/style.css" rel="stylesheet" />
+        <title>QR-CODE</title>
+        <script src="scripts/qrcode.min.js"></script>
+    </header>
+    <body>
+        <div id="qrcode"></div>
+        <script>
+            var qrcode = new QRCode(document.getElementById("qrcode"), {
+  text: "https://chengbo-liu.github.io/Gift/",
+  width: 256,
+  height: 256,
+  colorDark: "#000000", 
+  colorLight: "#fffff0",
+  correctLevel: QRCode.CorrectLevel.H
+});
+        </script>
+    </body>
+</html>
