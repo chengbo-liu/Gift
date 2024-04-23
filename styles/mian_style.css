@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-    background-image: url("../resources/images/title.jpg"); background-attachment:fixed; background-size:contain;
+    background-image: url("../resources/images/title.jpg"); background-attachment:local; background-size:cover;
     color: #fff;
     padding: 40px;
     text-align: center;
