@@ -12,66 +12,66 @@ body {
 }
 
 /* Header styles */
-header {
+#firstTitle {
     background-image: url("../resources/images/title.jpg"); 
     background-attachment:local; 
     background-size:cover; 
     color: #fff; 
-    padding: 80px;
+    padding: 20px;
     text-align: center;
 }
-
-header h1 {
-    text-align: center;
+#secondTitle{
+    margin-bottom: 10px;
+    background-image: url(../resources/images/rainbow.jpg);
+    background-attachment:local; 
+    background-size:cover; 
+    padding: 60px;  
+    text-align:center;
+      color:brown; 
 }
-
-nav ul {
-    list-style-type: none;
+#accent{
+    font-size: 15px; color: rgb(235, 128, 66);
+    background-image: url(../resources/images/accent.jpg);
+    background-attachment:local; 
+    background-size:cover; 
+    padding: 20px;
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+#lqy
+{
+    text-align: left;
 }
+#lcb{
+text-align: right;
+    }
 
-nav ul li a {
-    color: #861414;
-    text-decoration: none;
+#tips{
+    background-image: url(../resources/images/tips.jpg);
+    background-attachment:local; 
+    background-size:cover; 
 }
-
 /* Main styles */
 main {
-    padding: 100px; text-align: center; 
+    padding: 50px; text-align: center; 
 }
-
+/* 
 article {
     margin-bottom: 40px;
 }
 
 article h2 {
     margin-bottom: 10px;
-}
+    background-image: url(../resources/images/rainbow.jpg);
+    background-attachment:local; 
+    background-size:cover; 
+    padding: 60px;  
+    text-align:center;
+      color:brown; 
 
-article p {
-    margin-bottom: 15px;
-}
+} 
 
-figure {
-    margin-bottom: 15px;
-}
-
-figure img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-figcaption {
-    text-align: center;
-    font-style: italic;
-}
-
+*/
 /* Footer styles */
+
 footer {
     background-color: #333;
     color: #fff;
