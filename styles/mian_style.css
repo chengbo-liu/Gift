@@ -17,13 +17,12 @@ header {
     background-attachment:local; 
     background-size:cover;
     color: #fff;
-padding: 80px;
+    padding: 80px;
     text-align: center;
 }
 
 header h1 {
-    margin-bottom: 10px;
-    padding: 20px;
+    text-align: center;
 }
 
 nav ul {
@@ -36,13 +35,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #861414;
     text-decoration: none;
 }
 
 /* Main styles */
 main {
-    padding: 20px;
+    padding: 100px; text-align: center; 
 }
 
 article {
