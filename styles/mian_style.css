@@ -15,7 +15,7 @@ body {
 header {
     background-image: url("../resources/images/title.jpg"); 
     background-attachment:local; 
-    background-size:contain;
+    background-size:cover; 
     color: #fff; 
 
     text-align: center;
