@@ -13,9 +13,8 @@ body {
 
 /* Header styles */
 header {
-    background-image: url("../resources/images/title.jpg"); background-attachment:local; background-size:cover;
+    background-image: url("../resources/images/title.jpg"); background-attachment:local; background-size:contain;
     color: #fff;
-    padding: 40px;
     text-align: center;
 }
 
